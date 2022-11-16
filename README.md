@@ -1,2 +1,4 @@
 # CoffeeNetwork
-Mobile application for remote coffee orders
+
+## A mobile application for remote coffee ordering
+
