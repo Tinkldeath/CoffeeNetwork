@@ -5,12 +5,12 @@
 * run pod install
 * open .xcworkspace
 
-## Connect yours MongoDB Atlas
+## Connect your MongoDB Atlas
 * Create a project in atlas
 * Create an app service [More here](https://www.mongodb.com/docs/atlas/app-services/manage-apps/create/create-with-ui/)
 * Enable device sync [More here](https://www.mongodb.com/docs/atlas/app-services/sync/)
 * Enable email-password authentication provider [More here](https://www.mongodb.com/docs/atlas/app-services/authentication/email-password/#std-label-email-password-authentication)
-* In ***RealmGateway.swift*** change ***private let appId*** to yours
+* In ***RealmGateway.swift*** change ***private let appId*** to your app id
 
 ## Another gateway
 * Create a custom gateway protocols implementation classes
