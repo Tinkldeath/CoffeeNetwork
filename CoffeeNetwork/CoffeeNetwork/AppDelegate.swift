@@ -10,10 +10,9 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    private let gateway = RealmGateway()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         return true
     }
 
@@ -34,3 +33,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: GatewayProviderProtocol {
+    var authorizationGateway: AuthorizationGatewayProtocol {
+        return self.gateway
+    }
+    var coffeeHousesGateway: CoffeeHousesGatewayProtocol {
+        return self.gateway
+    }
+}

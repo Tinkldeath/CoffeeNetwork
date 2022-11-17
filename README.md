@@ -1,4 +1,9 @@
-# CoffeeNetwork - Todo
+# CoffeeNetwork
+
+## Check [usage](Media/USAGE.md) to try it out
+
+## TODO:
+
 ## User Roles:
 * Admin
 * Coffee House

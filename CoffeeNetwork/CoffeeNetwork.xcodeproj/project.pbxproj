@@ -7,31 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322928F12925826D00482D54 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322928F02925826D00482D54 /* SignInViewController.swift */; };
+		322928F529258A7A00482D54 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322928F429258A7A00482D54 /* SignInViewModel.swift */; };
+		322928F929258E6C00482D54 /* RealmGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322928F829258E6C00482D54 /* RealmGateway.swift */; };
+		322928FB29258F6800482D54 /* GatewayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322928FA29258F6800482D54 /* GatewayProvider.swift */; };
+		322929042925920200482D54 /* OutputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322929032925920200482D54 /* OutputViewModel.swift */; };
+		3229290A2925952500482D54 /* InputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322929092925952500482D54 /* InputViewModel.swift */; };
+		3229290C29259A9E00482D54 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229290B29259A9E00482D54 /* SignUpViewModel.swift */; };
+		3229290E29259DB300482D54 /* GatewayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229290D29259DB300482D54 /* GatewayProtocols.swift */; };
+		322929102925A00F00482D54 /* SignUpEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229290F2925A00F00482D54 /* SignUpEmployeeViewController.swift */; };
+		322929122925A02E00482D54 /* SignUpCoffeeHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322929112925A02E00482D54 /* SignUpCoffeeHouseViewController.swift */; };
+		322929142925A03C00482D54 /* SignUpClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322929132925A03C00482D54 /* SignUpClientViewController.swift */; };
+		322929172925A64100482D54 /* CoffeeHousesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322929162925A64100482D54 /* CoffeeHousesViewModel.swift */; };
 		32D04B6A2925452A009A4E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D04B692925452A009A4E65 /* AppDelegate.swift */; };
 		32D04B6C2925452A009A4E65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D04B6B2925452A009A4E65 /* SceneDelegate.swift */; };
-		32D04B6E2925452A009A4E65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D04B6D2925452A009A4E65 /* ViewController.swift */; };
 		32D04B712925452A009A4E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D04B6F2925452A009A4E65 /* Main.storyboard */; };
 		32D04B732925452B009A4E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D04B722925452B009A4E65 /* Assets.xcassets */; };
 		32D04B762925452B009A4E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D04B742925452B009A4E65 /* LaunchScreen.storyboard */; };
-		32D04B83292545C3009A4E65 /* Client.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D04B82292545C3009A4E65 /* Client.storyboard */; };
-		32D04B85292545DD009A4E65 /* CoffeeHouse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D04B84292545DD009A4E65 /* CoffeeHouse.storyboard */; };
-		32D04B87292545E8009A4E65 /* Employee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D04B86292545E8009A4E65 /* Employee.storyboard */; };
-		32D04B89292545F3009A4E65 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D04B88292545F3009A4E65 /* Admin.storyboard */; };
+		FDDC5ADCC22805201AD8909F /* Pods_CoffeeNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82015484487D8D79395E0B41 /* Pods_CoffeeNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322928F02925826D00482D54 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		322928F429258A7A00482D54 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		322928F829258E6C00482D54 /* RealmGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmGateway.swift; sourceTree = "<group>"; };
+		322928FA29258F6800482D54 /* GatewayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayProvider.swift; sourceTree = "<group>"; };
+		322929032925920200482D54 /* OutputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewModel.swift; sourceTree = "<group>"; };
+		322929092925952500482D54 /* InputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewModel.swift; sourceTree = "<group>"; };
+		3229290B29259A9E00482D54 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		3229290D29259DB300482D54 /* GatewayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayProtocols.swift; sourceTree = "<group>"; };
+		3229290F2925A00F00482D54 /* SignUpEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmployeeViewController.swift; sourceTree = "<group>"; };
+		322929112925A02E00482D54 /* SignUpCoffeeHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCoffeeHouseViewController.swift; sourceTree = "<group>"; };
+		322929132925A03C00482D54 /* SignUpClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpClientViewController.swift; sourceTree = "<group>"; };
+		322929162925A64100482D54 /* CoffeeHousesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeHousesViewModel.swift; sourceTree = "<group>"; };
 		32D04B662925452A009A4E65 /* CoffeeNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D04B692925452A009A4E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D04B6B2925452A009A4E65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32D04B6D2925452A009A4E65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32D04B702925452A009A4E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32D04B722925452B009A4E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D04B752925452B009A4E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32D04B772925452B009A4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32D04B82292545C3009A4E65 /* Client.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Client.storyboard; sourceTree = "<group>"; };
-		32D04B84292545DD009A4E65 /* CoffeeHouse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CoffeeHouse.storyboard; sourceTree = "<group>"; };
-		32D04B86292545E8009A4E65 /* Employee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employee.storyboard; sourceTree = "<group>"; };
-		32D04B88292545F3009A4E65 /* Admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Admin.storyboard; sourceTree = "<group>"; };
+		7166802397F7C0AEE83429A2 /* Pods-CoffeeNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeNetwork.release.xcconfig"; path = "Target Support Files/Pods-CoffeeNetwork/Pods-CoffeeNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		82015484487D8D79395E0B41 /* Pods_CoffeeNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5A9352E85F80C73E5D9148 /* Pods-CoffeeNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeNetwork.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeNetwork/Pods-CoffeeNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +57,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDC5ADCC22805201AD8909F /* Pods_CoffeeNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322928F629258BC400482D54 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				322928F729258BCA00482D54 /* RealmGateway */,
+				322928FA29258F6800482D54 /* GatewayProvider.swift */,
+				3229290D29259DB300482D54 /* GatewayProtocols.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		322928F729258BCA00482D54 /* RealmGateway */ = {
+			isa = PBXGroup;
+			children = (
+				322928F829258E6C00482D54 /* RealmGateway.swift */,
+			);
+			path = RealmGateway;
+			sourceTree = "<group>";
+		};
+		32292906292592BE00482D54 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				322929132925A03C00482D54 /* SignUpClientViewController.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		32292907292592C300482D54 /* CoffeeHouse */ = {
+			isa = PBXGroup;
+			children = (
+				322929112925A02E00482D54 /* SignUpCoffeeHouseViewController.swift */,
+			);
+			path = CoffeeHouse;
+			sourceTree = "<group>";
+		};
+		32292908292592C800482D54 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				3229290F2925A00F00482D54 /* SignUpEmployeeViewController.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		322929152925A19D00482D54 /* InputOutput */ = {
+			isa = PBXGroup;
+			children = (
+				322929032925920200482D54 /* OutputViewModel.swift */,
+				322929092925952500482D54 /* InputViewModel.swift */,
+			);
+			path = InputOutput;
+			sourceTree = "<group>";
+		};
 		32D04B5D2925452A009A4E65 = {
 			isa = PBXGroup;
 			children = (
 				32D04B682925452A009A4E65 /* CoffeeNetwork */,
 				32D04B672925452A009A4E65 /* Products */,
+				3C46C5A9A1AE6E432F6FEFA6 /* Pods */,
+				A965558B3C8792CC76AC4F82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,12 +136,11 @@
 		32D04B682925452A009A4E65 /* CoffeeNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				32D04B7F29254568009A4E65 /* Model */,
+				322928F629258BC400482D54 /* Gateway */,
 				32D04B7E29254560009A4E65 /* ViewModel */,
 				32D04B7D2925455B009A4E65 /* View */,
 				32D04B692925452A009A4E65 /* AppDelegate.swift */,
 				32D04B6B2925452A009A4E65 /* SceneDelegate.swift */,
-				32D04B6D2925452A009A4E65 /* ViewController.swift */,
 				32D04B722925452B009A4E65 /* Assets.xcassets */,
 				32D04B772925452B009A4E65 /* Info.plist */,
 			);
@@ -79,8 +150,11 @@
 		32D04B7D2925455B009A4E65 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				32D04B812925458C009A4E65 /* xib */,
+				32292908292592C800482D54 /* Employee */,
+				32292907292592C300482D54 /* CoffeeHouse */,
+				32292906292592BE00482D54 /* Client */,
 				32D04B802925457F009A4E65 /* Storyboard */,
+				322928F02925826D00482D54 /* SignInViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,15 +162,12 @@
 		32D04B7E29254560009A4E65 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				322929152925A19D00482D54 /* InputOutput */,
+				3229290B29259A9E00482D54 /* SignUpViewModel.swift */,
+				322928F429258A7A00482D54 /* SignInViewModel.swift */,
+				322929162925A64100482D54 /* CoffeeHousesViewModel.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		32D04B7F29254568009A4E65 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		32D04B802925457F009A4E65 /* Storyboard */ = {
@@ -104,19 +175,25 @@
 			children = (
 				32D04B742925452B009A4E65 /* LaunchScreen.storyboard */,
 				32D04B6F2925452A009A4E65 /* Main.storyboard */,
-				32D04B82292545C3009A4E65 /* Client.storyboard */,
-				32D04B84292545DD009A4E65 /* CoffeeHouse.storyboard */,
-				32D04B86292545E8009A4E65 /* Employee.storyboard */,
-				32D04B88292545F3009A4E65 /* Admin.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		32D04B812925458C009A4E65 /* xib */ = {
+		3C46C5A9A1AE6E432F6FEFA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				9A5A9352E85F80C73E5D9148 /* Pods-CoffeeNetwork.debug.xcconfig */,
+				7166802397F7C0AEE83429A2 /* Pods-CoffeeNetwork.release.xcconfig */,
 			);
-			path = xib;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A965558B3C8792CC76AC4F82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82015484487D8D79395E0B41 /* Pods_CoffeeNetwork.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32D04B7A2925452B009A4E65 /* Build configuration list for PBXNativeTarget "CoffeeNetwork" */;
 			buildPhases = (
+				EA67EDF1EDA8A79D2EF2BF7F /* [CP] Check Pods Manifest.lock */,
 				32D04B622925452A009A4E65 /* Sources */,
 				32D04B632925452A009A4E65 /* Frameworks */,
 				32D04B642925452A009A4E65 /* Resources */,
+				75BF0F4FE87CE8AD441F93DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,25 +257,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D04B762925452B009A4E65 /* LaunchScreen.storyboard in Resources */,
-				32D04B89292545F3009A4E65 /* Admin.storyboard in Resources */,
-				32D04B85292545DD009A4E65 /* CoffeeHouse.storyboard in Resources */,
-				32D04B87292545E8009A4E65 /* Employee.storyboard in Resources */,
 				32D04B732925452B009A4E65 /* Assets.xcassets in Resources */,
 				32D04B712925452A009A4E65 /* Main.storyboard in Resources */,
-				32D04B83292545C3009A4E65 /* Client.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75BF0F4FE87CE8AD441F93DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeNetwork/Pods-CoffeeNetwork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeNetwork/Pods-CoffeeNetwork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeNetwork/Pods-CoffeeNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA67EDF1EDA8A79D2EF2BF7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeeNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32D04B622925452A009A4E65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D04B6E2925452A009A4E65 /* ViewController.swift in Sources */,
+				3229290E29259DB300482D54 /* GatewayProtocols.swift in Sources */,
+				322929042925920200482D54 /* OutputViewModel.swift in Sources */,
+				322928F929258E6C00482D54 /* RealmGateway.swift in Sources */,
 				32D04B6A2925452A009A4E65 /* AppDelegate.swift in Sources */,
+				322928F529258A7A00482D54 /* SignInViewModel.swift in Sources */,
+				3229290C29259A9E00482D54 /* SignUpViewModel.swift in Sources */,
 				32D04B6C2925452A009A4E65 /* SceneDelegate.swift in Sources */,
+				322929142925A03C00482D54 /* SignUpClientViewController.swift in Sources */,
+				322929102925A00F00482D54 /* SignUpEmployeeViewController.swift in Sources */,
+				322929172925A64100482D54 /* CoffeeHousesViewModel.swift in Sources */,
+				3229290A2925952500482D54 /* InputViewModel.swift in Sources */,
+				322929122925A02E00482D54 /* SignUpCoffeeHouseViewController.swift in Sources */,
+				322928FB29258F6800482D54 /* GatewayProvider.swift in Sources */,
+				322928F12925826D00482D54 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +466,7 @@
 		};
 		32D04B7B2925452B009A4E65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5A9352E85F80C73E5D9148 /* Pods-CoffeeNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -371,6 +500,7 @@
 		};
 		32D04B7C2925452B009A4E65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7166802397F7C0AEE83429A2 /* Pods-CoffeeNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
